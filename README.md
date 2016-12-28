@@ -8,3 +8,10 @@ Erlang is a programming language used to build massively scalable soft real-time
 ### auto_increment base on ets
 Use ets:update_counter Function to increment.   
 This function provides an efficient way to update one or more counters, without the hassle of having to look up an object, update the object by incrementing an element and insert the resulting object into the table again. (The update is done atomically; i.e. no process can access the ets table in the middle of the operation.)
+
+
+## How to start
+### start application
+bash ./start_dev.sh
+### compile code
+make
